@@ -1,7 +1,7 @@
 secretGenerator:
   - name: mysql-pass
     literals:
-      - password=arthas25
+      - password=your-password-here
 resources:
   - wordpress/mysql-service.yaml
   - wordpress/mysql-pvc.yaml
