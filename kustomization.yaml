@@ -6,7 +6,10 @@ resources:
   - wordpress/mysql-service.yaml
   - wordpress/mysql-pvc.yaml
   - wordpress/mysql-deployment-v2.yaml
-  - wordpress/wordpress-deployment.yaml
+  - wordpress/wordpress-deployment-v2.yaml
+  - wordpress/wordpress-pvc.yaml
+  - wordpress/wordpress-service.yaml
 patchesStrategicMerge:
   - patches/replica_patch.yaml
   - patches/pvc-patch.yaml
+  
