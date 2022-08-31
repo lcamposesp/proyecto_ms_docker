@@ -3,5 +3,7 @@ secretGenerator:
     literals:
       - password=arthas25
 resources:
-  - wordpress/mysql-deployment.yaml
+  - wordpress/mysql-service.yaml
+  - wordpress/mysql-pvc.yaml
+  - wordpress/mysql-deployment-v2.yaml
   - wordpress/wordpress-deployment.yaml
