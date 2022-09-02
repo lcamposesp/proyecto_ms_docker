@@ -12,4 +12,5 @@ resources:
 patchesStrategicMerge:
   - patches/replica_patch.yaml
   - patches/pvc-patch.yaml
+  - patches/multipatch.yaml
   
